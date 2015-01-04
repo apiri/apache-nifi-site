@@ -1,7 +1,14 @@
 # About
+![index page screenshot](https://raw.githubusercontent.com/apiri/apache-nifi-site/screenshots/index.html.png)
 
 This is a template design created for the [Apache NiFi project] (http://nifi.incubator.apache.org).
 
+## Technologies & Resources
+- HTML5
+- CSS3- jQuery
+- Modernizr
+- Google Fonts API
+- FontAwesome
 
 ## License
 
@@ -20,10 +27,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## Technologies & Resources
-- HTML5
-- CSS3- jQuery
-- Modernizr
-- Google Fonts API
-- FontAwesome
 
