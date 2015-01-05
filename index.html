@@ -22,10 +22,12 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
+
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -50,8 +52,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation<span
-                            class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/docs/faq.html">FAQ</a></li>
                         <li><a href="/docs/nifi-docs/overview.html">NiFi Overview</a></li>
@@ -59,14 +60,16 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span
+                            class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/mailing_lists.html">Mailing Lists</a></li>
                         <li><a href="/people.html">People</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development<span
+                            class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/development/quickstart.html">Quickstart</a></li>
                         <li><a href="https://git-wip-us.apache.org/repos/asf/incubator-nifi.git"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Source</a></li>
@@ -78,7 +81,8 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">ASF Links <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="http://www.apache.org"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Apache Software Foundation</a></li>
+                        <li><a href="http://www.apache.org"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Apache Software Foundation</a>
+                        </li>
                         <li><a href="http://www.apache.org/foundation/sponsorship.html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Sponsorship</a></li>
                         <li><a href="http://www.apache.org/security/"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Security</a></li>
                         <li><a href="http://www.apache.org/foundation/thanks.html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Thanks</a></li>
@@ -91,53 +95,56 @@
     </div>
 </nav>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 logo">
-                <img class="highlight" src="img/square-logo.svg">
-            </div>
-            <div class="col-md-10">
-                <h1>Apache NiFi</h1>
-                <p>
-                    Apache NiFi is a dataflow system based on the concepts of flow-based programming. <br/>
-                    It is currently a part of the Apache Incubator.
-                </p>
+<div id="content-wrapper">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 logo">
+                    <img class="highlight" src="img/square-logo.svg">
+                </div>
+                <div class="col-md-10">
+                    <h1>Apache NiFi</h1>
+
+                    <p>
+                        Apache NiFi is a dataflow system based on the concepts of flow-based programming. <br/>
+                        It is currently a part of the Apache Incubator.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row flow-img-div">
+            <img class="flow-img flow-img-div" src="img/flow.png">
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2><i class="fa fa-cogs"></i> Features</h2>
+
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                    euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="col-md-4">
+                <h2><i class="fa fa-code-fork"></i> Get Involved</h2>
+
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                    euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="col-md-4">
+                <h2><i class="fa fa-book"></i> Documentation</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                    ut fermentum massa justo sit amet risus.</p>
+            </div>
+        </div>
+    </div>
+    <div id="content-wrapper-buffer">&nbsp;</div>
 </div>
 
-<div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2><i class="fa fa-cogs"></i> Features</h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-            <h2><i class="fa fa-code-fork"></i> Get Involved</h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-            <h2><i class="fa fa-book"></i> Documentation</h2>
-
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus.</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="footer">
+<div id="footer" class="footer">
         <footer>
             <div>
                 <img class="apache-logo" src="img/egg-logo.png">
@@ -146,10 +153,13 @@
                 <p>
                     Disclaimer: Apache NiFi is an effort undergoing incubation at the Apache Software Foundation (ASF),
                     sponsored by the
-                    Apache Incubator PMC. Incubation is required of all newly accepted projects until a further review indicates
+                    Apache Incubator PMC. Incubation is required of all newly accepted projects until a further review
+                    indicates
                     that the
-                    infrastructure, communications, and decision making process have stabilized in a manner consistent with
-                    other successful ASF projects. While incubation status is not necessarily a reflection of the completeness
+                    infrastructure, communications, and decision making process have stabilized in a manner consistent
+                    with
+                    other successful ASF projects. While incubation status is not necessarily a reflection of the
+                    completeness
                     or stability of the code, it
                     does indicate that the project has yet to be fully endorsed by the ASF.<br/>
                 </p>
@@ -157,7 +167,8 @@
 
             <div>
                 <p>
-                    Copyright &copy; 2014-2015 The Apache Software Foundation, Licensed under the Apache License, Version
+                    Copyright &copy; 2014-2015 The Apache Software Foundation, Licensed under the Apache License,
+                    Version
                     2.0.
                     <br/>
                     Apache, the Apache feather logo, and the Apache Incubator project logo are trademarks of The Apache
@@ -166,9 +177,9 @@
                 </p>
             </div>
         </footer>
-    </div>
 </div>
 <!-- /container -->
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.js"><\/script>')</script>
 

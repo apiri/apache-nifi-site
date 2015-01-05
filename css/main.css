@@ -1,8 +1,44 @@
+html,
+body {
+    height: 100%;
+}
 
 body {
-    font-family: sans-serif;
-    padding-top: 50px;
-    padding-bottom: 20px;
+   font-family: sans-serif;
+   background-image: linear-gradient(
+            rgba(255, 255, 255, 0.75),
+            rgba(255, 255, 255, 0.75)
+    ),
+    url("../img/grid.gif") ;
+}
+
+#content-wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 30px auto -175px;
+    padding-bottom: 30px;
+}
+
+#content-wrapper-buffer,
+#footer {
+    height: 175px;
+}
+
+#footer {
+    color: #f5f5f5;
+    background-color: #00003c;
+    font-style: oblique;
+    font-size: smaller;
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 h2 {
@@ -16,6 +52,7 @@ h2 {
     ),
     url("../img/nifi-banner.png");
     color: #efefef;
+    padding-top: 60px;
 }
 
 .logo {
@@ -30,12 +67,22 @@ h2 {
     box-shadow: 0px 0px 80px #fff;
 }
 
+.highlight-complement {
+    -moz-box-shadow: 0 0 40px #00003c;
+    -webkit-box-shadow: 0 0 40px #00003c;
+    box-shadow: 0px 0px 40px #00003c;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #navbar {
     color: #efefef;
 }
 
 .navbar {
-
     background-color: #00003c;
 
     background-image: linear-gradient(
@@ -50,29 +97,26 @@ h2 {
     color: #f5f5f5;
 }
 
-.footer {
-    color: #f5f5f5;
-    background-color: #00003c;
-
-    min-height: 100px;
-    padding: 10px;
-
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    font-style: oblique;
-    font-size: smaller;
-}
-
 .apache-logo {
     background-color: #f5f5f5;
     margin: 5px;
 }
 
+.flow-toolbar-wrapper {
+    padding: 10px;
+}
 
 
+.flow-img-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flow-img {
+    display:block;
+    margin:auto;
+    width: 40%;
+}
 
 
 
