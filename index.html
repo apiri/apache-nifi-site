@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+    <title>Apache NiFi</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta property="og:image" content="http://www.apache.orgimg/asf_logo.gif" />
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!-- Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements.  See the NOTICE file distributed with this work for additional information regarding copyright ownership.  The ASF licenses this file to you under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License.  You may obtain a copy of the License at . http://www.apache.org/licenses/LICENSE-2.0 . Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the License for the specific language governing permissions and limitations under the License. -->
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Project<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="https://blogs.apache.org/nifi/">Apache NiFi Blog</a></li>
+                            <li><a href="/downloads/">Downloads</a></li>
+                            <li><a href="/docs/roadmap.html">Roadmap</a></li>
+                            <li><a href="http://www.apache.org/licenses/LICENSE-2.0"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> License</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/docs/faq.html">FAQ</a></li>
+                            <li><a href="/docs/nifi-docs/overview.html">NiFi Overview</a></li>
+                            <li><a href="/docs/nifi-docs/user-guide.html">User Guide</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/mailing_lists.html">Mailing Lists</a></li>
+                            <li><a href="/people.html">People</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/development/quickstart.html">Quickstart</a></li>
+                            <li><a href="/development/release-guide.html">Release Guide</a></li>
+                            <li><a href="https://git-wip-us.apache.org/repos/asf/incubator-nifi.git"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Source</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Tools</li>
+                            <li><a href="https://issues.apache.org/jira/browse/NIFI"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Issues</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ASF Links <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.apache.org"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Apache Software Foundation</a></li>
+                            <li><a href="http://www.apache.org/foundation/sponsorship.html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Sponsorship</a></li>
+                            <li><a href="http://www.apache.org/security/"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Security</a></li>
+                            <li><a href="http://www.apache.org/foundation/thanks.html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Thanks</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="jumbotron">
+        <div id="content">
+            <h1 id="wzxhzdk0-apache-nifi"><img alt="NiFi logo" style="float: right" src="img/niFi-logo-horizontal.png" /> Apache NiFi</h1>
+            <p>Apache NiFi is a dataflow system based on the concepts of flow-based programming. It is currently a part of the Apache Incubator.</p>
+            <h2 id="features">Features</h2>
+            <p>Apache NiFi supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic. Some of the high-level capabilities and objectives of Apache NiFi include:</p>
+            <ul>
+                <li>Web-based user interface for seamless experience between design, control, feedback, and monitoring of data flows</li>
+                <li>Highly configurable along several dimensions of quality of service such as loss tolerant versus guaranteed delivery, low latency versus high throughput, and priority based queuing</li>
+                <li>Fine-grained data provenance for all data received, forked, joined, cloned, modified, sent, and ultimately dropped as data reaches its configured end-state</li>
+                <li>Component-based extension model along well defined interfaces enabling rapid development and effective testing</li>
+                <li>Security: Supports various forms of SSL, SSH, HTTPS for system to system flows and content encryption/decryption.  And SSL, PKI, pluggable authorization for users.</li>
+            </ul>
+            <h2 id="disclaimer">Disclaimer</h2>
+            <p>Apache NiFi is an effort undergoing incubation at the Apache Software
+                Foundation (ASF), sponsored by the Apache Incubator PMC.</p>
+            <p>Incubation is required of all newly accepted projects until a further review
+                indicates that the infrastructure, communications, and decision making process
+                have stabilized in a manner consistent with other successful ASF projects.</p>
+            <p>While incubation status is not necessarily a reflection of the completeness
+                or stability of the code, it does indicate that the project has yet to be
+                fully endorsed by the ASF.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <a alt="Apache Software Foundation" href="http://www.apache.org">
+            <img id="asf-logo" alt="Apache Software Foundation" src="img/feather-small.gif">
+        </a>
+        <a alt="Apache Incubator Logo" href="http://incubator.apache.org/">
+            <img id="incubator-logo" alt="Apache Incubator" src="img/egg-logo.png" >
+        </a>
+        <div id="copyright">
+            <p>Copyright &#169; 2014 The Apache Software Foundation, Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.<br/>Apache, the Apache feather logo, and the Apache Incubator project logo are trademarks of The Apache Software Foundation.</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
