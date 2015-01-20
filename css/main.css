@@ -9,22 +9,22 @@
     font-size: larger;
 }
 
-
 .navbar {
     background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(left,  #ffffff 10%, #7299ac 25%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%,#ffffff), color-stop(25%,#7299ac)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #ffffff 10%,#7299ac 25%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #ffffff 10%,#7299ac 25%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #ffffff 10%,#7299ac 25%); /* IE10+ */
-    background: linear-gradient(to right,  #ffffff 10%,#7299ac 25%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7299ac',GradientType=1 ); /* IE6-9 */
+    background: -moz-linear-gradient(left, #ffffff 10%, #7299ac 25%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #ffffff), color-stop(25%, #7299ac)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ffffff 10%, #7299ac 25%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ffffff 10%, #7299ac 25%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ffffff 10%, #7299ac 25%); /* IE10+ */
+    background: linear-gradient(to right, #ffffff 10%, #7299ac 25%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#7299ac', GradientType=1); /* IE6-9 */
 
 }
 
 .navbar-main {
     color: #0F3541;
 }
+
 a, a:link, a:hover, a:active {
     font-family: 'Oswald', sans-serif;
 
@@ -32,22 +32,25 @@ a, a:link, a:hover, a:active {
     font-weight: 400;
     font-size: larger;
 }
+
 .navbar-brand {
     padding: 0 0 0 0;
 }
 
 .navbar-brand img {
-    height: 135%;
+    height: 220%;
 }
 
 .flow-img-div {
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
+
 .flow-img {
-    display:block;
-    margin:auto;
-    width: 40%;
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
 .jumbotron {
@@ -61,7 +64,7 @@ a, a:link, a:hover, a:active {
 }
 
 h2 {
-    background-color: #D9E4E8   ;
+    background-color: #D9E4E8;
 }
 
 #features li {
@@ -69,9 +72,13 @@ h2 {
 }
 
 .ni {
-color: #7A96A4
+    color: #7A96A4
 }
 
 .fi {
     color: #0F3541;
+}
+
+#banner-row {
+    padding-top: 20px;
 }
